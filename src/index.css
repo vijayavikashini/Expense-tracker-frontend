@@ -1,0 +1,35 @@
+:root {
+  font-family:  sans-serif;
+  line-height: 1.5;
+  font-weight: 100;
+
+ 
+}
+body {
+  background-color: #f1f1f1;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transaction-card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #aaa;
+  margin-bottom :8px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.transaction-card.negative
+{
+  border-right: 3px solid rgb(253, 6, 6);
+
+}
+
+.transaction-card.positive
+{
+  border-right: 3px solid green;
+
+}
